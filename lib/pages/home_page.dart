@@ -14,7 +14,7 @@ class HomePage extends StatelessWidget {
           child: Text("Welcome to Flutter", style: 
             TextStyle(fontSize: 40, 
             color: Colors.blue,
-            fontWeight: FontWeight.bold
+            fontWeight: FontWeight.bold,
             )
           ),
 
