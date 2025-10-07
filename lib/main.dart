@@ -19,9 +19,11 @@ class MyApp extends StatelessWidget {
         brightness: Brightness.light, 
       ),
 
+      debugShowCheckedModeBanner: false, 
+
       routes: {
-        "/": (context) => LoginPage(),
-        "/home": (context) => HomePage(),
+        "/": (context) => HomePage(),
+        "/login": (context) => LoginPage(),
       },
     );
   }
